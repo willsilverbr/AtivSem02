@@ -6,7 +6,7 @@
     public partial class banco : DbMigration
     {
         public override void Up()
-        {
+        {  //Usando o Updat
             CreateTable(
                 "dbo.Jogador",
                 c => new

@@ -8,6 +8,7 @@ namespace AtivSem02
 {
     public class Banco2
     {
+        //Classe Referente a Atividade2
         public int id { get; set; }
         public string nomeBanco { get; set; }
         public double saldo { get; set; }

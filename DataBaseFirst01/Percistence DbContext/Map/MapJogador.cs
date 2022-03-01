@@ -10,7 +10,8 @@ namespace DataBaseFirst01.Percistence_DbContext.Map
 {
     class MapJogador : EntityTypeConfiguration<Jogador>
     {
-        public MapJogador()
+        public MapJogador() //NÃO ESQUECER: Esse Construtor deve ser public, senão o Migrations
+                            //apresentará "Excepion relationship between" .
         {
             //Contrutor para mapear a tabela Jogador.
             //Se Não for definido aqui o Construtos cria os campos no seu padrao de sistema

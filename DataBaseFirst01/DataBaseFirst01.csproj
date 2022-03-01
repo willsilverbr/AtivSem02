@@ -58,6 +58,10 @@
     <Compile Include="Migrations\202203011646268_banco.designer.cs">
       <DependentUpon>202203011646268_banco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203011921001_base2.cs" />
+    <Compile Include="Migrations\202203011921001_base2.designer.cs">
+      <DependentUpon>202203011921001_base2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Percistence DbContext\Map\MapJogador.cs" />
     <Compile Include="Percistence DbContext\XGameContext.cs" />
@@ -74,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202203011646268_banco.resx">
       <DependentUpon>202203011646268_banco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203011921001_base2.resx">
+      <DependentUpon>202203011921001_base2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

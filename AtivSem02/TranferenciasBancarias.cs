@@ -17,9 +17,11 @@ namespace AtivSem02
             Console.Clear();
             double ValorTransferir;
 
+            //Recebe o valor inserido pelo usuario
             Console.WriteLine("Qual o valor do deposito?");
             ValorTransferir = Convert.ToDouble(Console.ReadLine());
 
+            //Retira o valor da transferencia do Banco1 para o Banco2
             banco1.saldo -= ValorTransferir;
             banco2.saldo += ValorTransferir;
 

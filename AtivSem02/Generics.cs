@@ -11,7 +11,7 @@ namespace AtivSem02
        public static void AlunosInfo()
         {
             Console.Clear();
-            //Lista de Alunos usando Generics
+            //Lista de Alunos usando Generics Referente a Atividade1
             List<Alunos> ListaDeAlunos = new List<Alunos>();
             ListaDeAlunos.Add(new Alunos() { id = 1, nome = "Augusto", idade = 14 });
             ListaDeAlunos.Add(new Alunos() { id = 2, nome = "Roberto", idade = 13 });
